@@ -5,7 +5,6 @@ class Editor extends Component {
   constructor(props) {
     super(props);
 
-    // Binding the method with the event handler without ().
     this.handleChange = this.handleChange.bind(this);
 
     this.state = {

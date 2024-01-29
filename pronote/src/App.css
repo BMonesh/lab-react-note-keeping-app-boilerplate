@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(56, 56, 197);
+}
+
+.input {
+  width: 45vw;
+  margin: 20px 10px;
+  height: 70vh;
+}
+
+.input-text {
+  color: white;
+  height: 55vh;
+  width: 100%;
+  border: solid black 2px;
+  background-color: rgb(56, 56, 197);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.output-text {
+  border: 1px solid blue;
+  width: 45vw;
+  height: 70vh;
+  background-color: rgb(61, 60, 60);
+  color: white;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.output {
+  margin-left: 40px;
+  margin-top: 20px;
+}
